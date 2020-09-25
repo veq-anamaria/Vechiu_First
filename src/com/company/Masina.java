@@ -11,4 +11,11 @@ public class Masina {
         this.greutate=greutate;
 
     }
+    public String print(){
+        return "{ Marca: " + this.marca + "\n" +
+                "Culoarea: " + this.culoare + "\n" +
+                "Greutate: " + this.greutate + "\n" +
+                "}";
+
+    }
 }
